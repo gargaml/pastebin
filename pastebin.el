@@ -1,5 +1,5 @@
 (defun build-data (code language)
-  (let ((xs `(("api_dev_key" . "b6b08f6fe01257141dedc8879d32eb63")
+  (let ((xs `(("api_dev_key" . "")
 	      ("api_option" . "paste")
 	      ("api_paste_code" . ,code)
 	      ("api_paste_format" . ,language))))
